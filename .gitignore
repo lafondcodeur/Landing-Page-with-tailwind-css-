@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Fichier CSS généré par Tailwind CLI
+src/css/output.css
+
+# Fichiers de logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Environnements et variables sensibles
+.env
+.env.local
+
+# Dossiers temporaires
+.cache/
+.tmp/
+
+# Systèmes d’exploitation
+.DS_Store
+Thumbs.db
+
+# Éditeurs de code
+.vscode/
+.idea/
