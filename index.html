@@ -36,17 +36,24 @@
     px: pl & pr
     py: pt & pb
 
-    Les bordures
+    Les bordures simples
     border [Largeur] : border 2 | border 4 | border 6
     border-[CouleurDeLaBordure]-Nuance : border-red-600
     border-b | border-l | border-t | border-b
+    border-dotted | border-dashed | border-solid | boder-double | border-none
     
+    Les bordures avec arrondis
+    rounded-[taille (pas de base : md)] | rounde-full  |  rounded-none
+    rounded-l-[taille] | rounded-r-[taille] | rounded-b-[taille]  | rounde-t-[taille]
+    rounded-tp-[taille] | rounded-tr-[taille]  | rounded-bl-[taille]  |  rounded-br-[taille]
      
     -->
-    <p
-      class="text-black-300 text-3xl bg-orange-500 w-xl p-5 m-auto border-r-6 border-red-700"
-    >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    </p>
+    <div class="mt-8">
+      <p
+        class="text-black-300 text-3xl bg-orange-500 w-xl p-5 m-auto border-6 border-black border-solid"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+    </div>
   </body>
 </html>
